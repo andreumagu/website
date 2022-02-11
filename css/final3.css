@@ -1,0 +1,208 @@
+@font-face {
+    font-family: gaya;
+    src: url(fuentes/Gayathri-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: mery;
+    margin: 0px !important;
+    background-image: url(../imagenes/fondo/formulario.jpg);
+}
+/*BARRA DE NAVEGACIÓN*/
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
+.logo1{
+    height: 100px;
+    width: 175;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 15px;
+    margin: 0 10px;
+    line-height: 100px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover{
+    background-color: rgb(233, 233, 233);
+    transition: 0.5s;
+}
+
+/*FORMULARIO*/
+
+.div-formulario
+
+form{
+    margin-top: 250px !important;
+    margin-bottom: 150px !important;
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.178);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+form h2{
+    color: rgb(228, 228, 228);
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 0px 20px;
+
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#boton{
+    background: rgb(224, 200, 181);
+    border: solid 1px;
+    padding: 15px;
+}
+
+#boton:hover{
+    cursor: pointer;
+    background: rgb(219, 194, 176);
+
+}
+
+/*LINKS*/
+.div-lista{
+    width: 100%;
+    background-color: white;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 900px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.elemento{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+.elemento:hover{
+    color: rgb(116, 116, 116);
+}
+
+/*PIE DE PÁGINA*/
+.piePagina{
+    width: 100%;
+    background-color:rgb(228, 228, 228);
+}
+
+.piePagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.piePagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piePagina .grupo1 .box figure img{
+    width: 250px;
+}
+
+.piePagina .grupo1 .box h2{
+    color:rgb(61, 61, 61);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.piePagina .grupo1 .box p{
+    color:rgb(87, 87, 87);
+    margin-bottom: 10px;
+}
+
+.piePagina .grupo1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(44, 44, 44);
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.piePagina .grupo1 .red-social a:hover{
+    color: #c7a685;
+}
+
+.piePagina .grupo2{
+    background-color: rgb(202, 202, 202);
+    padding: 15px 10px;
+    text-align: center;
+}

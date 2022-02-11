@@ -1,0 +1,197 @@
+@font-face {
+    font-family: gaya;
+    src: url(fuentes/Gayathri-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: mery;
+    margin: 0px !important;
+    
+}
+/*BARRA DE NAVEGACIÓN*/
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
+.logo1{
+    height: 100px;
+    width: 175;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 15px;
+    margin: 0 10px;
+    line-height: 100px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover{
+    background-color: rgb(233, 233, 233);
+    transition: 0.5s;
+}
+
+/*TABLA MATERIALES*/
+.div1-materiales{
+    padding: 50px 100px 50px;
+    width: 100%;
+    height: 800px;
+    margin-top: 103px !important;
+    width: 100%;
+    display: table;
+    background-image: url(../imagenes/marmol/gris.jpg);
+}
+
+
+.div2-materiales{
+    margin: 200px 0px 200px;
+    padding: 10px;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+.div-tabla{
+    margin: 40px;
+    padding: 10px;
+    align-items: center;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+th p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+td{
+    height: 170px;
+    width: 180px;
+    padding: 0px 10px;
+
+}
+
+.div2-materiales img{
+    width: 100px;
+    height: 150px;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+
+/*PIE DE PÁGINA*/
+.piePagina{
+    width: 100%;
+    background-color:rgb(228, 228, 228);
+
+}
+
+.piePagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.piePagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piePagina .grupo1 .box figure img{
+    width: 250px;
+}
+
+.piePagina .grupo1 .box h2{
+    color:rgb(61, 61, 61);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.piePagina .grupo1 .box p{
+    color:rgb(87, 87, 87);
+    margin-bottom: 10px;
+}
+
+.piePagina .grupo1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(44, 44, 44);
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.piePagina .grupo1 .red-social a:hover{
+    color: #c7a685;
+}
+
+.piePagina .grupo2{
+    background-color: rgb(202, 202, 202);
+    padding: 15px 10px;
+    text-align: center;
+}
