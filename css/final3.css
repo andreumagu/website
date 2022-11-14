@@ -1,6 +1,5 @@
 @font-face {
-    font-family: gaya;
-    src: url(fuentes/Gayathri-Regular.ttf);
+    font-family: 'Roboto', sans-serif;
 }
 
 *{
@@ -14,7 +13,6 @@ html{
 }
 
 body{
-    font-family: mery;
     margin: 0px !important;
     background-image: url(../imagenes/fondo/formulario.jpg);
 }
